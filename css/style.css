@@ -309,7 +309,7 @@ template {
 
 .button {
   padding: 13px 20px;
-  border-color: #04fc84;
+  border-color: #00ff87;
   border-radius: 30px;
   color: #ffffff;
   background-color: #181617;
@@ -320,8 +320,48 @@ template {
 }
 
 .container {
+  width: 85%;
   max-width: 1084px;
   margin: auto;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  background: #181617 url("../img/hero-bg.jpg") no-repeat center/cover;
+  height: 100vh;
+}
+.hero__content {
+  max-width: 688px;
+}
+.hero__scroll-down {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  min-width: 247px;
+  min-height: 97px;
+  background-color: #181617;
+  color: #181617;
+}
+.hero__text, .hero ol {
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 1.5em;
+}
+
+.title {
+  margin: 0;
+  font-size: 47px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.title--primary {
+  color: #00ff87;
+  font-size: 44px;
+  font-weight: 700;
 }
 
 .header {
